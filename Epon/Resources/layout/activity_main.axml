@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:orientation="vertical"
+	android:minWidth="25px"
+	android:minHeight="25px"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:id="@+id/editText1"
+		android:inputType="numberDecimal|number"
+		android:text="0"  />
+	<Button
+		android:text="ADD SAVINGS"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn1" />
+	<Button
+		android:text="DEDUCT SAVINGS"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn2" />
+	<EditText
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="15dp"
+		android:id="@+id/editText2"
+		android:inputType="numberDecimal|number" />
+	<Button
+		android:text="INPUT TARGET MONEY"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/btn3" />
+	<TextView
+		android:text="0"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/savingsView"
+		android:textAlignment="center"
+		android:inputType="none|number|numberDecimal" />
+	<TextView
+		android:text="TARGET MONEY"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/targetView"
+		android:textAlignment="center"
+		android:inputType="none|number|numberDecimal"/>
+	
+
+</LinearLayout>
